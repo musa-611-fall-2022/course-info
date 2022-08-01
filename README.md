@@ -1,4 +1,4 @@
-Welcome to _JavaScript Programming for Planners & Designers_!
+**Welcome to _JavaScript Programming for Planners & Designers_!**
 
 # Syllabus
 
@@ -6,20 +6,30 @@ Welcome to _JavaScript Programming for Planners & Designers_!
 * **Location**: Meyerson Hall B4 and online
 * **Schedule**: 1:45-4:45PM, Mondays
 * **Instructor**:
-  * Mjumbe Poe, mjumbe@upenn.edu
+  * Mjumbe Poe, mjumbe@design.upenn.edu
 * **TA**:
-  * Bingchu Chen, bcchen@upenn.edu
+  * Jingyi Li, jingyili@design.upenn.edu
 * **Office Hours**:
   * Mjumbe: Monday 12PM-1:30PM @Meyerson B6 + Thursday 2:30PM-4PM online (and special request as necessary) -- [book a time](https://calendly.com/mjumbe-upenn/office-hours)
-  * Bingchu: Tuesday 3:30PM-4:30PM online -- [book a time](https://calendly.com/bcchen/musa611-ta-oh)
+  * Jingyi: Tuesday 3:30PM-4:30PM online -- [book a time](https://calendly.com/bcchen/musa611-ta-oh)
 * **Need help?**
   * [Slack organization](https://musa6112022.slack.com)
   * Stack Overflow is your friend!
 
+This course is the first part of a 2-part track on building systems that display, analyze, and in some cases generate new geospatial data. The emphasis is on _building systems_. In this course you will build interactive interfaces to work with data, primarily in CSV and JSON format, in the web browser. In the second course (_Geospatial Cloud Computing & Visualization_) students will build scheduled, automated, cloud-based processes to clean, transform, and otherwise prepare data for analysis and visualization.
+
+The courses are best together, but this first course can stand alone.
+
 ## Software
-* [Visual Studio Code](https://code.visualstudio.com/)
-* [GitHub's Atom Editor](https://atom.io/)
-* [GitHub Desktop](https://desktop.github.com/)
+* Code Editors
+  * [Visual Studio Code](https://code.visualstudio.com/)
+  * [GitHub's Atom Editor](https://atom.io/)
+* Terminals
+  * [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install)
+* Git Clients
+  * [GitHub Desktop](https://desktop.github.com/)
+* Node.js
+  * [Node.js](https://nodejs.org/en/download/)
 
 ## Supplimentary Resources
 
@@ -43,7 +53,7 @@ Welcome to _JavaScript Programming for Planners & Designers_!
 
 Throughout this 15 week course, you'll be learning to program applications using HTML, CSS, and Javascript. In addition to programming skills, we will stress the "tools of the trade": you will use a text editor designed for programming; your code will be turned in with git and managed through github. You will be programming in the same way and with some of the same tools as software developers in the industry.
 
-We'd like to keep the course somewhat freeform — there are basic skills which must be touched on, but your interests will help shape the direction to a large extent. There will be a self-directed final assignment that can take on about any topic you find interesting (so long as you use tools from our class).
+We'd like to keep the course somewhat freeform — there are basic skills which must be touched on, but your interests will help shape the direction to a large extent. Most of your practice will come through building three projects in JavaScript, in addition to a self-directed final assignment that can take on about any topic you find interesting (so long as you use tools from our class).
 
 This syllabus is a living document. As the course progresses, greater detail will be added to reflect the content of each week.
 
