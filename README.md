@@ -16,7 +16,8 @@
     - Thursday 4PM-5PM online
     - [Book a time](https://calendly.com/mjumbe-upenn/office-hours)
   * Jingyi:
-    - Times and booking link to come
+    - For now, Friday mornings
+    - [Book a time](https://calendly.com/jingyili-ta/musa611)
 * **Need help?**
   * [Slack organization](https://musa6112022.slack.com)
   * Stack Overflow is your friend!
@@ -95,7 +96,7 @@ Your final assignment for the class will be decided through a project proposal n
 
 | Week | Date | Topic | Project |
 | :--: | ---- | ----- | :-----: |
-|   1  | 31 Aug | Getting started | [Class Dossier](https://github.com/musa-611-fall-2022/class-dossier) |
+|   1  | 31 Aug | [Getting started](https://github.com/musa-611-fall-2022/week1) | [Class Dossier](https://github.com/musa-611-fall-2022/class-dossier) |
 |   2  | 07 Sep | Working with data | ┴ |
 |   3  | 14 Sep | Designing systems | School Data Explorer |
 |   4  | 21 Sep | Asynchronous behavior #1 | │ |
