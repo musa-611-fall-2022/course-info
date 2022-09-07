@@ -97,7 +97,7 @@ Your final assignment for the class will be decided through a project proposal n
 | Week | Date | Topic | Project |
 | :--: | ---- | ----- | :-----: |
 |   1  | 31 Aug | [Getting started](https://github.com/musa-611-fall-2022/week1) | [Class Dossier](https://github.com/musa-611-fall-2022/class-dossier) |
-|   2  | 07 Sep | Working with data | ┴ |
+|   2  | 07 Sep | [Working with data](https://github.com/musa-611-fall-2022/week2) | ┴ |
 |   3  | 14 Sep | Designing systems | School Data Explorer |
 |   4  | 21 Sep | Asynchronous behavior #1 | │ |
 |   5  | 28 Sep | The JavaScript event loop | │ |
