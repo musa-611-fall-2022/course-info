@@ -116,9 +116,9 @@ Your final assignment for the class will be decided through a project proposal n
 #### Week 1 - Getting started
 * Git and Github
 * Code editing
-* First steps with Javascript/HTML/CSS (playing in the console)
 
 #### Week 2 - Working with data
+* First steps with Javascript/HTML/CSS (playing in the console)
 * JavaSCript data types
 * JSON
 * GeoJSON
