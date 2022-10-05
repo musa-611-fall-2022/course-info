@@ -21,4 +21,5 @@ Any time you use tiles directly from or based on some ready-made source, be sure
 
 ## Other resources
 * Mapbox Style Gallery: https://www.mapbox.com/gallery/
+* Mapbox's core styles: https://docs.mapbox.com/api/maps/styles/#mapbox-styles
 * The Leaflet Providers extension: https://github.com/leaflet-extras/leaflet-providers (preview tiles in [the gallery](http://leaflet-extras.github.io/leaflet-providers/preview/index.html))
