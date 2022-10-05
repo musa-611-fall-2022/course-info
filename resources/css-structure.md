@@ -11,7 +11,7 @@ There are _a ton_ of important CSS attributes, but for the purposes of layout, t
 * [`flex`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-examples)
 
 Other attributes that are important to layouts within an element or on the page overall:
-* [`margin`/`padding`/`border`/`box-model`](https://css-tricks.com/the-css-box-model/)
+* [`margin`/`padding`/`border`/`box-sizing`](https://css-tricks.com/the-css-box-model/)
 * [`position`](https://css-tricks.com/almanac/properties/p/position/)
 
 ## Recommended exercises
