@@ -98,13 +98,13 @@ Your final assignment for the class will be decided through a project proposal n
 | :--: | ---- | ----- | :-----: |
 |   1  | 31 Aug | [Getting started](https://github.com/musa-611-fall-2022/week1) | [Class Dossier](https://github.com/musa-611-fall-2022/class-dossier) |
 |   2  | 07 Sep | [Working with data](https://github.com/musa-611-fall-2022/week2) | ┴ |
-|   3  | 14 Sep | Designing systems | School Data Explorer |
-|   4  | 21 Sep | Asynchronous behavior #1 | │ |
-|   5  | 28 Sep | The JavaScript event loop | │ |
-|   6  | 05 Oct | Map visualizations | ┴ |
-|   7  | 12 Oct | Asynchronous behavior #2 | Voter Canvassing |
+|   3  | 14 Sep | [Designing systems](https://github.com/musa-611-fall-2022/week3) | [School Explorer](https://github.com/musa-611-fall-2022/school-explorer) |
+|   4  | 21 Sep | [Asynchronous behavior #1 (Events)](https://github.com/musa-611-fall-2022/week4) | │ |
+|   5  | 28 Sep | [DOM Manipulation](https://github.com/musa-611-fall-2022/week5) | │ |
+|   6  | 05 Oct | [Styles and Layouts](https://github.com/musa-611-fall-2022/week6) | ┴ |
+|   7  | 12 Oct | Asynchronous behavior #2 (Requests) | Voter Canvassing |
 |   8  | 19 Oct | Client-side geospatial analysis | │ |
-|   9  | 26 Oct | Charts and templates| │ |
+|   9  | 26 Oct | Charts and data layers | │ |
 |  10  | 02 Nov | | ┴ |
 |  11  | 09 Nov | | Final Project |
 |  12  | 16 Nov | | │ |
@@ -132,13 +132,17 @@ Your final assignment for the class will be decided through a project proposal n
 * CSS selectors & the DOM
 * Responding to interactive events
 
-#### Week 5 - The JavaScript event loop
+#### Week 5 - DOM Manipulation
+* The Document Object Model (DOM)
+* CSS selectors & the DOM
 
-#### Week 6 - Map visualizations
+#### Week 6 - Styles and layouts
+* CSS units
+* Common CSS layout patterns
 * Map tiles
-* Deck.gl
 
 #### Week 7 - Asynchronous behavior #2
+* The JavaScript event loop
 * Dynamically fetching data
 * APIs (using Mapbox)
 * CSV data
@@ -147,7 +151,8 @@ Your final assignment for the class will be decided through a project proposal n
 * Where to find spatial data
 * Turf.js
 
-#### Week 9 - Charts and templates
+#### Week 9 - Charts and data layers
+* Deck.gl
 
 #### Weeks 10-13 - Possible directions
 * D3
