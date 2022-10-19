@@ -101,13 +101,13 @@ Your final assignment for the class will be decided through a project proposal n
 |   3  | 14 Sep | [Designing systems](https://github.com/musa-611-fall-2022/week3) | [School Explorer](https://github.com/musa-611-fall-2022/school-explorer) |
 |   4  | 21 Sep | [Asynchronous behavior #1 (Events)](https://github.com/musa-611-fall-2022/week4) | │ |
 |   5  | 28 Sep | [DOM Manipulation](https://github.com/musa-611-fall-2022/week5) | │ |
-|   6  | 05 Oct | [Styles and Layouts](https://github.com/musa-611-fall-2022/week6) | ┴ |
-|   7  | 12 Oct | Asynchronous behavior #2 (Requests) | Voter Canvassing |
-|   8  | 19 Oct | Client-side geospatial analysis | │ |
-|   9  | 26 Oct | Charts and data layers | │ |
-|  10  | 02 Nov | | ┴ |
-|  11  | 09 Nov | | Final Project |
-|  12  | 16 Nov | | │ |
+|   6  | 05 Oct | [Styles and Layouts](https://github.com/musa-611-fall-2022/week6) | │ |
+|   7  | 12 Oct | Asynchronous behavior #2 (Requests) | ┴ |
+|   8  | 19 Oct | Browser APIs | Voter Canvassing |
+|   9  | 26 Oct | 3rd-party APIs | │ |
+|  10  | 02 Nov | A11y, I18n, & L10n | │ |
+|  11  | 09 Nov | | ┴ |
+|  12  | 16 Nov | | Final Project |
 |      | ~~23 Nov~~ |  | │ |
 |  13  | 30 Nov | | │ |
 |  14  | 07 Dec | Project presentations | ┴ |
@@ -144,18 +144,26 @@ Your final assignment for the class will be decided through a project proposal n
 #### Week 7 - Asynchronous behavior #2
 * The JavaScript event loop
 * Dynamically fetching data
-* APIs (using Mapbox)
 * CSV data
 
-#### Week 8 - Client-side geospatial analysis
+#### Week 8 - Browser APIs
+* Fetch (redux)
+* Geolocation
+* Local Storage
+
+#### Week 9 - 3rd-party APIs
+* APIs (using Mapbox)
+
+#### Week 10 - A11y, I18n, & L10n
+* Accessibility
+* Internationalization
+* Localization
+
+#### Weeks 11-13 - Possible directions
 * Where to find spatial data
-* Turf.js
-
-#### Week 9 - Charts and data layers
-* Deck.gl
-
-#### Weeks 10-13 - Possible directions
+* Client-side geospatial analysis (Turf.js)
 * D3
+* Deck.gl
 * Bootstrap
 * Using the command line
 * Server-side JavaScript (node.js)
