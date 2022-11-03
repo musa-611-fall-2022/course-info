@@ -103,8 +103,8 @@ Your final assignment for the class will be decided through a project proposal n
 |   5  | 28 Sep | [DOM Manipulation](https://github.com/musa-611-fall-2022/week5) | │ |
 |   6  | 05 Oct | [Styles and Layouts](https://github.com/musa-611-fall-2022/week6) | │ |
 |   7  | 12 Oct | Asynchronous behavior #2 (Requests) | ┴ |
-|   8  | 19 Oct | Browser APIs | Voter Canvassing |
-|   9  | 26 Oct | 3rd-party APIs | │ |
+|   8  | 19 Oct | [Browser APIs](https://github.com/musa-611-fall-2022/week8) | [Voter Canvassing](https://github.com/musa-611-fall-2022/voter-canvassing) |
+|   9  | 26 Oct | [3rd-party APIs](https://github.com/musa-611-fall-2022/week9) | │ |
 |  10  | 02 Nov | A11y, I18n, & L10n | │ |
 |  11  | 09 Nov | | ┴ |
 |  12  | 16 Nov | | Final Project |
@@ -152,7 +152,7 @@ Your final assignment for the class will be decided through a project proposal n
 * Local Storage
 
 #### Week 9 - 3rd-party APIs
-* APIs (using Mapbox)
+* APIs (using Mapbox and Firestore)
 
 #### Week 10 - A11y, I18n, & L10n
 * Accessibility
