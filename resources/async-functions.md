@@ -36,25 +36,29 @@ Callback functions are the oldest way that JS developers have been dealing with 
 
 ```js
 // Here the findUsersPosition function accepts a `callback` as an
-// arument. This callback should be a function that accepts a
+// argument. This callback should be a function that accepts a
 // `GeolocationPosition` object as an argument (because that what
 // the Geolocation API gives you):
 //
 // https://developer.mozilla.org/en-US/docs/Web/API/GeolocationPosition
 //
 // When the browser finds the user's position, this function will
-// call the callback and pass the geolocation position along to it.
-function findUsersPosition(callback) {
+// call the onSuccess callback and pass the geolocation position along 
+// to it.
+function findUsersPosition(onSuccess, onFailure) {
   navigator.geolocation.getCurrentPosition(
-    (pos) => { callback(pos) },
-    (err) => { console.log(`Failed with error: ${err.message}`) },
+    (pos) => { onSuccess(pos) },
+    (err) => { onFailure(err) },
   );
 }
 
 let position = null;
 findUsersPosition(pos => {
-  position = pos;
-});
+    position = pos;
+  },
+  err => {
+    console.log(`Failed with error: ${err.message}`)
+  });
 ```
 
 ## Promises
@@ -64,10 +68,9 @@ findUsersPosition(pos => {
 ```js
 // Here, the findUsersPosition function creates a `Promise` object
 // and returns it. When the browser finds the user's position, the 
-// function will "resolve" the promise (i.e., call the `resolve`
-// function on the promise, which will accepts a `callback` as an
-// arument. This callback should be a function that accepts a
-// `GeolocationPosition` object as an argument (because that what
+// function will "resolve" the promise (i.e., call its `resolve`
+// callback function). This callback should be a function that accepts
+// a `GeolocationPosition` object as an argument (because that what
 // the Geolocation API gives you):
 //
 // https://developer.mozilla.org/en-US/docs/Web/API/GeolocationPosition
@@ -91,10 +94,10 @@ function findUsersPosition() {
 // `reject` function is called within the promise.
 let position = null;
 findUsersPosition()
-.then(pos => {
+.then(pos => {    // <-- this is the resolve function
   position = pos;
 })
-.catch(err => {
+.catch(err => {   // <-- this is the reject function
   console.log(`Failed with error: ${err.message}`)
 });
 
@@ -104,7 +107,7 @@ findUsersPosition()
 // be declared as `async`.
 let position = null;
 try {
-  const pos = await findUserPosition();
+  const pos = await findUserPosition();  // The `await` returns whatever arguments the `resolve` callback was called with.
   position = pos;
 } catch (err) {
   console.log(`Failed with error: ${err.message}`)
