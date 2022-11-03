@@ -78,17 +78,37 @@ function findUsersPosition() {
   const promise = new Promise((resolve, reject) => {
     navigator.geolocation.getCurrentPosition(
       (pos) => { resolve(pos) },
-      (err) => { console.log(`Failed with error: ${err.message}`) },
+      (err) => { reject(err) },
     );
   });
   return promise
 }
 
+// There are two ways we can use a function that returns a promise. In
+// the first way, we use the `then`/`catch` syntax. A `then` method on
+// a promise gets called when the `resolve` function is called within
+// the promise. The `catch` method on a promise gets called when the
+// `reject` function is called within the promise.
 let position = null;
 findUsersPosition()
 .then(pos => {
   position = pos;
+})
+.catch(err => {
+  console.log(`Failed with error: ${err.message}`)
 });
+
+// Alternatively, we can use the `async`/`await` syntax, which can be
+// easier to read, but functionally does _exactly_ the same thing. If
+// you use the `await` syntax inside of a function, your function must
+// be declared as `async`.
+let position = null;
+try {
+  const pos = await findUserPosition();
+  position = pos;
+} catch (err) {
+  console.log(`Failed with error: ${err.message}`)
+}
 ```
 
 ## Custom Events
