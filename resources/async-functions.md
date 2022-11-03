@@ -32,7 +32,7 @@ There are three common tools that you could use to make the result of an asynchr
 
 ## Callback Functions
 
-Callback functions are the oldest way that JS developers have been dealing with asynchronous operations. Every browser back to the earliest ones that support JavaScript support callback functions. That's because, aside from the name, there's nothing special about callbacks: **callback functions just functions**.
+Callback functions are the oldest way that JS developers have been dealing with asynchronous operations. Every browser back to the earliest ones that support JavaScript support callback functions. That's because, aside from the name, there's nothing special about callbacks: **callback functions are just functions**.
 
 ```js
 // Here the findUsersPosition function accepts a `callback` as an
