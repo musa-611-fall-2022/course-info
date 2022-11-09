@@ -105,7 +105,7 @@ Your final assignment for the class will be decided through a project proposal n
 |   7  | 12 Oct | [Asynchronous behavior #2 (Requests)](https://github.com/musa-611-fall-2022/week7) | ┴ |
 |   8  | 19 Oct | [Browser APIs](https://github.com/musa-611-fall-2022/week8) | [Voter Canvassing](https://github.com/musa-611-fall-2022/voter-canvassing) |
 |   9  | 26 Oct | [3rd-party APIs](https://github.com/musa-611-fall-2022/week9) | │ |
-|  10  | 02 Nov | A11y, I18n, & L10n | │ |
+|  10  | 02 Nov | [A11y, I18n, & L10n](https://github.com/musa-611-fall-2022/week10) | │ |
 |  11  | 09 Nov | | ┴ |
 |  12  | 16 Nov | | Final Project |
 |      | ~~23 Nov~~ |  | │ |
